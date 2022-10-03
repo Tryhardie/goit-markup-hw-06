@@ -61,7 +61,7 @@ body {
 .page-header .link {
   text-decoration: none;
   font-weight: 500;
-  line-height: 1.14;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
@@ -166,7 +166,7 @@ body {
   padding: 0px 238px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -179,7 +179,7 @@ body {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.9;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-text-color);
@@ -220,7 +220,7 @@ body {
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   text-transform: uppercase;
 }
 
@@ -228,7 +228,7 @@ body {
   margin: 0;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7;
   color: var(--secondary-text-color);
 }
 
@@ -247,7 +247,7 @@ body {
 .costumers-heading {
   margin: 0px 0px 50px 0px;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.2;
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -278,7 +278,7 @@ body {
   padding: 27px 0;
   width: 100%;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -296,7 +296,7 @@ body {
   margin: 30px 0px 10px 0px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -422,7 +422,7 @@ body {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.71;
+  line-height: 1.7;
   color: #ffffff;
 }
 
@@ -444,7 +444,7 @@ body {
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
-  line-height: 1.14;
+  line-height: 1.1;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -474,7 +474,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: inherit;
   color: var(--primary-text-color);
@@ -548,7 +548,7 @@ body {
   padding-bottom: 20px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.9;
   color: var(--secondary-text-color);
 }
 
@@ -564,8 +564,9 @@ body {
   transform: translateY(101%);
   margin: 0;
   padding: 63px 24px;
+  height: 100%;
   font-size: 18px;
-  line-height: 1.55;
+  line-height: 1.6;
   color: #ffffff;
   background: rgba(33, 150, 243, 0.9);
 }
