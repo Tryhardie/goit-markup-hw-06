@@ -196,9 +196,10 @@ body {
 .hero-btn:hover,
 .hero-btn:focus,
 .sub-btn:hover,
-.sub-btn:focus {
-  color: var(--primary-text-color);
-  background-color: var(--accent-bg-color);
+.sub-btn:focus,
+.send-btn:hover,
+.send-btn:focus {
+  background-color: #188ce8;
 }
 
 /* Features Section */
@@ -485,16 +486,12 @@ body {
   border-radius: 4px;
 }
 
-.sub-input:hover,
 .sub-input:focus,
-.form-input:hover,
 .form-input:focus,
-.form-comment:hover,
 .form-comment:focus {
   border: 1px solid var(--accent-text-color);
 }
 
-.form-input:hover + svg,
 .form-input:focus + svg {
   fill: var(--accent-text-color);
   transition-property: fill;
@@ -774,18 +771,15 @@ body {
   border-radius: 2px;
 }
 
-.accept {
-  display: flex;
-  align-items: center;
-  margin-left: 12px;
-}
-
 .accept input:checked + .checkbox {
   background: var(--accent-text-color);
   border: none;
 }
 
 .accept-lable {
+  display: flex;
+  margin-left: 12px;
+  align-items: center;
   line-height: 1.7;
   color: var(--secondary-text-color);
 }
@@ -803,11 +797,6 @@ body {
   background-color: var(--accent-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-}
-
-.send-btn:hover,
-.send-btn:focus {
-  background-color: #188ce8;
 }
 
 .terms {
